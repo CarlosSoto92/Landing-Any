@@ -21,16 +21,14 @@
     <header id="header" class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
-                <!-- Logo -->
-                <a href="#inicio" class="flex items-center space-x-2">
-                    <svg width="40" height="40" viewBox="0 0 105 72" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-anyover-blue-light">
-                        <path d="M0.333984 71.1373C13.8226 71.1373 21.082 48.3373 34.5707 48.3373C48.0593 48.3373 53.6062 60.7373 67.0948 60.7373C80.5835 60.7373 87.8429 42.4373 104.551 42.4373C104.551 42.4373 104.551 29.0373 104.551 25.7373C86.1304 25.7373 78.4123 4.96644 63.7198 1.13733C49.0273 -2.66275 42.8255 25.7373 28.133 25.7373C13.4404 25.7373 2.94648 71.1373 0.333984 71.1373Z" fill="currentColor"/>
-                    </svg>
-                    <div class="flex flex-col">
-                        <span class="font-display font-bold text-2xl text-anyover-blue-dark tracking-tight">Anyover</span>
-                        <span class="text-xs text-gray-500 -mt-1">Instrumentación Científica</span>
-                    </div>
-                </a>
+                <!-- Logo con imagen -->
+<a href="#inicio" class="flex items-center space-x-2">
+  <img
+    src="src/assets/Logo_anyover.png"
+    alt="Anyover Instrumentación Científica"
+    class="h-10 w-auto"
+  />
+</a>
 
                 <!-- Navegación Desktop -->
                 <nav class="hidden md:flex space-x-8">
@@ -158,7 +156,7 @@
                     </div>
                     <!-- Producto 3 -->
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                        <img src="https://placehold.co/600x400/0B589D/FFFFFF?text=Analizador+BET" alt="Analizadores de Área Superficial BET" class="w-full h-56 object-contain p-2">
+                        <img src="images/bet.png" alt="Analizadores de Área Superficial BET" class="w-full h-56 object-contain p-2">
                         <div class="p-6">
                             <h3 class="font-bold font-display text-xl text-anyover-blue-dark">Analizadores de Área Superficial BET</h3>
                             <p class="mt-2 text-gray-600 text-sm">Equipos para la determinación de área superficial y porosidad con el método BET.</p>
@@ -173,58 +171,139 @@
             </div>
         </section>
 
-        <!-- ==== Marcas Section ==== -->
-        <section id="marcas" class="py-20 bg-gray-50">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center">
-                    <h2 class="text-3xl font-extrabold text-anyover-blue-dark sm:text-4xl">Nuestras Marcas Representadas</h2>
-                    <p class="mt-4 text-lg text-gray-600">Colaboramos con los líderes mundiales en instrumentación científica.</p>
-                </div>
-                <div class="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
-                    <!-- Tarjeta de Marca -->
-                    <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center text-center h-48 transform hover:scale-105 transition-transform duration-300">
-                        <img src="https://placehold.co/150x80/cccccc/333333?text=Altamira" alt="Logo de Altamira Instruments" class="h-12 mb-4">
-                        <p class="font-semibold text-gray-700">Caracterización de catalizadores</p>
-                    </div>
-                    <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center text-center h-48 transform hover:scale-105 transition-transform duration-300">
-                        <img src="https://placehold.co/150x80/cccccc/333333?text=3P+Instruments" alt="Logo de 3P Instruments" class="h-12 mb-4">
-                        <p class="font-semibold text-gray-700">Análisis de partículas y poros</p>
-                    </div>
-                    <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center text-center h-48 transform hover:scale-105 transition-transform duration-300">
-                        <img src="https://placehold.co/150x80/cccccc/333333?text=OMEC" alt="Logo de OMEC Instruments" class="h-12 mb-4">
-                        <p class="font-semibold text-gray-700">Difracción láser de partículas</p>
-                    </div>
-                    <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center text-center h-48 transform hover:scale-105 transition-transform duration-300">
-                        <img src="https://placehold.co/150x80/cccccc/333333?text=Brother+Furnace" alt="Logo de Brother Furnace" class="h-12 mb-4">
-                        <p class="font-semibold text-gray-700">Hornos de alta temperatura</p>
-                    </div>
-                    <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center text-center h-48 transform hover:scale-105 transition-transform duration-300">
-                        <img src="https://placehold.co/150x80/cccccc/333333?text=Agilent" alt="Logo de Agilent (División Vacío)" class="h-12 mb-4">
-                        <p class="font-semibold text-gray-700">Sistemas y tecnología de vacío</p>
-                    </div>
-                    <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center text-center h-48 transform hover:scale-105 transition-transform duration-300">
-                        <img src="https://placehold.co/150x80/cccccc/333333?text=Macylab" alt="Logo de Macylab" class="h-12 mb-4">
-                        <p class="font-semibold text-gray-700">Espectroscopía y análisis</p>
-                    </div>
-                    <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center text-center h-48 transform hover:scale-105 transition-transform duration-300">
-                        <img src="https://placehold.co/150x80/cccccc/333333?text=Infitek" alt="Logo de Infitek" class="h-12 mb-4">
-                        <p class="font-semibold text-gray-700">Equipamiento general de laboratorio</p>
-                    </div>
-                    <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center text-center h-48 transform hover:scale-105 transition-transform duration-300">
-                        <img src="images/logolog_CORRTEST_002.png" alt="Logo de CorrTest Instruments" class="h-12 mb-4 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/150x80/eeeeee/333333?text=CorrTest';">
-                        <p class="font-semibold text-gray-700">Instrumentación electroquímica</p>
-                    </div>
-                    <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center text-center h-48 transform hover:scale-105 transition-transform duration-300">
-                        <img src="https://placehold.co/150x80/cccccc/333333?text=Porometer" alt="Logo de Porometer" class="h-12 mb-4">
-                        <p class="font-semibold text-gray-700">Porometría y permeabilidad</p>
-                    </div>
-                    <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center text-center h-48 transform hover:scale-105 transition-transform duration-300">
-                        <img src="https://placehold.co/150x80/cccccc/333333?text=Qsonica" alt="Logo de Qsonica" class="h-12 mb-4">
-                        <p class="font-semibold text-gray-700">Sonicación ultrasónica</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+       <!-- ==== Marcas Section ==== -->
+<section id="marcas" class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h2 class="text-3xl font-extrabold text-anyover-blue-dark sm:text-4xl">
+        Nuestras Marcas Representadas
+      </h2>
+      <p class="mt-4 text-lg text-gray-600">
+        Colaboramos con los líderes mundiales en instrumentación científica.
+      </p>
+    </div>
+    <div class="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+      
+      <!-- Altamira Instruments -->
+      <div class="brand-card">
+        <img src="src/assets/brands/AMI-ALTAMIRA.png"
+             alt="Logo de Altamira Instruments"
+             class="h-12 mb-4 object-contain" />
+        <p class="font-semibold text-gray-700">
+          Caracterización de catalizadores
+        </p>
+      </div>
+
+      <!-- 3P Instruments -->
+      <div class="brand-card">
+        <img src="src/assets/brands/3P.png"
+             alt="Logo de 3P Instruments"
+             class="h-12 mb-4 object-contain" />
+        <p class="font-semibold text-gray-700">
+          Análisis de partículas y poros
+        </p>
+      </div>
+
+      <!-- OMEC -->
+      <div class="brand-card">
+        <img src="src/assets/brands/LOGO OMEC (002).png"
+             alt="Logo de OMEC"
+             class="h-12 mb-4 object-contain" />
+        <p class="font-semibold text-gray-700">
+          Difracción láser de partículas
+        </p>
+      </div>
+
+      <!-- Brother Furnace -->
+      <div class="brand-card">
+        <img src="src/assets/brands/Brother Furnace .png"
+             alt="Logo de Brother Furnace"
+             class="h-12 mb-4 object-contain" />
+        <p class="font-semibold text-gray-700">
+          Hornos de alta temperatura
+        </p>
+      </div>
+
+      <!-- Infitek -->
+      <div class="brand-card">
+        <img src="src/assets/brands/Infitek.png"
+             alt="Logo de Infitek"
+             class="h-12 mb-4 object-contain" />
+        <p class="font-semibold text-gray-700">
+          Equipamiento general de laboratorio
+        </p>
+      </div>
+
+      <!-- Macy Instrument -->
+      <div class="brand-card">
+        <img src="src/assets/brands/MACYLAB LOGO2.png"
+             alt="Logo de Macy Instrument"
+             class="h-12 mb-4 object-contain" />
+        <p class="font-semibold text-gray-700">
+          Espectroscopía y análisis
+        </p>
+      </div>
+
+      <!-- Hiden Analytical -->
+      <div class="brand-card">
+        <img src="src/assets/brands/main-hiden-logo-burgundy.png"
+             alt="Logo de Hiden Analytical"
+             class="h-12 mb-4 object-contain" />
+        <p class="font-semibold text-gray-700">
+          Espectrometría de masas
+        </p>
+      </div>
+      <!-- CorrTest Instruments -->
+      <div class="brand-card">
+        <img src="src/assets/brands/logo_CORRTEST.png"
+             alt="Logo de CorrTest Instruments"
+             class="h-12 mb-4 object-contain" />
+        <p class="font-semibold text-gray-700">
+         Electroquímica
+        </p>
+      </div>
+
+      <!-- Porometer -->
+      <div class="brand-card">
+        <img src="src/assets/brands/Porometer-Logo.png"
+             alt="Logo de Porometer"
+             class="h-12 mb-4 object-contain" />
+        <p class="font-semibold text-gray-700">
+          Porometría y permeabilidad
+        </p>
+      </div>
+
+      <!-- Qsonica -->
+      <div class="brand-card">
+        <img src="src/assets/brands/LOGO QSONICA.png"
+             alt="Logo de Qsonica"
+             class="h-12 mb-4 object-contain" />
+        <p class="font-semibold text-gray-700">
+          Sonicación ultrasónica
+        </p>
+      </div>
+
+      <!-- Instrument Specialists -->
+      <div class="brand-card">
+        <img src="src/assets/brands/IS Logo.png"
+             alt="Logo de Instrument Specialists"
+             class="h-12 mb-4 object-contain" />
+        <p class="font-semibold text-gray-700">
+         Análisis Térmico
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Añade estas clases extra al CSS si aún no las tienes -->
+<style>
+.brand-card {
+  @apply bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center text-center h-48
+         transform hover:scale-105 transition-transform duration-300;
+}
+</style>
 
         <!-- ==== Eventos Section ==== -->
         <section id="eventos" class="py-20 bg-white">
@@ -289,37 +368,66 @@
                         IMPORTANTE: Reemplaza "YOUR_UNIQUE_ID" con tu ID de formulario de Formspree.
                         Ve a formspree.io, crea un nuevo formulario y pega aquí el endpoint que te proporcionen.
                     -->
-                    <form action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST" class="space-y-6">
-                        <div>
-                            <label for="full-name" class="block text-sm font-medium text-gray-700">Nombre Completo</label>
-                            <div class="mt-1">
-                                <input type="text" name="full-name" id="full-name" autocomplete="name" required class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus-ring-anyover-blue-light">
-                            </div>
-                        </div>
-                        <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700">Correo Electrónico</label>
-                            <div class="mt-1">
-                                <input id="email" name="email" type="email" autocomplete="email" required class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus-ring-anyover-blue-light">
-                            </div>
-                        </div>
-                        <div>
-                            <label for="company" class="block text-sm font-medium text-gray-700">Empresa / Institución</label>
-                            <div class="mt-1">
-                                <input type="text" name="company" id="company" autocomplete="organization" class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus-ring-anyover-blue-light">
-                            </div>
-                        </div>
-                        <div>
-                            <label for="message" class="block text-sm font-medium text-gray-700">Mensaje</label>
-                            <div class="mt-1">
-                                <textarea id="message" name="message" rows="4" required class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus-ring-anyover-blue-light"></textarea>
-                            </div>
-                        </div>
-                        <div class="text-right">
-                            <button type="submit" class="w-full sm:w-auto inline-flex justify-center py-3 px-8 border border-transparent shadow-sm text-base font-medium rounded-full text-white bg-anyover-blue-light hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus-ring-anyover-blue-light transition duration-300 transform hover:scale-105">
-                                Enviar Mensaje
-                            </button>
-                        </div>
-                    </form>
+                    <form
+  action="https://formspree.io/f/mdkzeeyg"
+  method="POST"
+  class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md space-y-4"
+>
+  <!-- Nombre -->
+  <div>
+    <label for="name" class="block text-sm font-medium text-gray-700">Nombre</label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      required
+      class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"
+    />
+  </div>
+
+  <!-- Correo electrónico -->
+  <div>
+    <label for="email" class="block text-sm font-medium text-gray-700">Correo electrónico</label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      required
+      class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"
+    />
+  </div>
+
+  <!-- Mensaje -->
+  <div>
+    <label for="message" class="block text-sm font-medium text-gray-700">Mensaje</label>
+    <textarea
+      name="message"
+      id="message"
+      rows="4"
+      required
+      class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"
+    ></textarea>
+  </div>
+
+  <!-- Campo honeypot opcional (anti-spam) -->
+  <div style="display: none;">
+    <label>Si eres humano, deja este campo vacío: <input type="text" name="_gotcha" /></label>
+  </div>
+
+  <!-- Botón de envío -->
+  <button
+    type="submit"
+    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md p-3 transition-transform transform hover:scale-105"
+  >
+    Enviar
+  </button>
+
+  <!-- Mensaje de estado (puedes manejarlo con JavaScript) -->
+  <p id="form-status" class="text-center text-sm text-green-600 mt-2 hidden">
+    ¡Gracias! Tu mensaje ha sido enviado.
+  </p>
+</form>
+
                 </div>
                  <div class="mt-16 text-center text-gray-600">
                     <p class="font-semibold">O contáctanos directamente:</p>
@@ -338,9 +446,12 @@
     </footer>
     
     <!-- ==== Botón Flotante de WhatsApp ==== -->
-    <a href="https://wa.me/5215549599673" target="_blank" rel="noopener noreferrer" class="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg z-50 transition-transform transform hover:scale-110">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M16.6 14.2l-1.5-0.8c-0.3-0.2-0.6,0-0.8,0.2l-0.7,0.9c-0.2,0.3-0.6,0.3-0.8,0.2c-0.7-0.3-1.4-0.8-2-1.3c-0.6-0.5-1-1.2-1.3-2c-0.1-0.2-0.1-0.6,0.2-0.8l0.9-0.7c0.2-0.2,0.3-0.5,0.2-0.8l-0.8-1.5c-0.2-0.3-0.5-0.5-0.8-0.5h-1.6c-0.4,0-0.8,0.4-0.8,0.8c0,0.6,0.2,1.2,0.5,1.7c0.6,1,1.4,1.9,2.4,2.6c1,0.8,2.1,1.2,3.3,1.2h1.6c0.4,0,0.8-0.4,0.8-0.8V15C17.1,14.6,16.9,14.3,16.6,14.2z M12,2C6.5,2,2,6.5,2,12s4.5,10,10,10c5.5,0,10-4.5,10-10S17.5,2,12,2z M12,20c-4.4,0-8-3.6-8-8s3.6-8,8-8c4.4,0,8,3.6,8,8S16.4,20,12,20z"/></svg>
-    </a>
+  <!-- Nuevo botón de WhatsApp -->
+<a href="https://wa.me/525520568309" target="_blank" rel="noreferrer"
+   class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg z-50 transition-transform transform hover:scale-110">
+  <!-- icono y/o texto -->
+  <span>WhatsApp</span>
+</a>
 
     <!-- Enlace a tu archivo JavaScript -->
     <script src="js/main.js"></script>
