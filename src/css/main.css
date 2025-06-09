@@ -1,0 +1,23 @@
+/* Aplicamos las tipografías base del manual de marca (versiones web) */
+body {
+    font-family: 'Inter', sans-serif; /* Alternativa a Myriad Pro, se mantiene */
+    background-color: #f8fafc; 
+}
+
+/* Tipografía para títulos actualizada a una más formal */
+h1, h2, h3, h4, .font-display {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Colores de la marca (para clases personalizadas si fueran necesarias) */
+.bg-anyover-blue-dark { background-color: #0B589D; }
+.bg-anyover-blue-light { background-color: #00AEEF; }
+.text-anyover-blue-dark { color: #0B589D; }
+.text-anyover-blue-light { color: #00AEEF; }
+.border-anyover-blue-light { border-color: #00AEEF; }
+.focus-ring-anyover-blue-light:focus { ring-color: #00AEEF; }
+
+/* Efecto de scroll suave */
+html {
+    scroll-behavior: smooth;
+}
